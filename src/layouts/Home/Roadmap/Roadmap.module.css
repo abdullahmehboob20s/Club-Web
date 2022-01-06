@@ -1,0 +1,25 @@
+.roadmapWrapper {
+  background-image: url(https://launch.lambowhaleclub.com/assets/image/roadmap-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.roadmap_points {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.roadmap_points > div {
+  flex: 1;
+}
+
+.roadmap_points > :not(:last-child) {
+  margin-right: 1rem;
+}
+.roadmapImg {
+  width: 99%;
+  margin: 0 auto;
+  display: block;
+}

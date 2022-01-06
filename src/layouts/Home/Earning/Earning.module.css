@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  align-items: flex-start;
+}

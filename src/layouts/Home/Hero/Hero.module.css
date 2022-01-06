@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero_left {
+  flex: 1;
+  margin-right: 5rem;
+}
+
+.hero_right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_bullet_points {
+  display: flex;
+  align-items: center;
+}
+
+.hero_bullet_points > :not(:last-child) {
+  margin-right: 50px;
+}
+
+.heroDiscordBtn {
+  display: flex;
+  align-items: center;
+  padding: 17px 52px 11px;
+  border-radius: 5px;
+  border: 2px solid #4890ff;
+  margin: 0 auto;
+}
+
+.heroDiscordBtn > img {
+  margin-left: 10px;
+}

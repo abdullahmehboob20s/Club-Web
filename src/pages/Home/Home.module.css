@@ -1,0 +1,23 @@
+.bannerWrapper {
+  background-image: url(https://launch.lambowhaleclub.com/assets/image/banner-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  min-height: 100vh;
+  z-index: 10;
+}
+
+.heroShadder {
+  position: absolute;
+  top: -160px;
+  left: -410px;
+  z-index: -1;
+  user-select: none;
+}
+
+.heroShadder_2 {
+  position: absolute;
+  top: -236px;
+  right: -580px;
+  z-index: -1;
+}

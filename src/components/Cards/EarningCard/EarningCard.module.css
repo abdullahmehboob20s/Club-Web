@@ -1,0 +1,12 @@
+.card {
+  background-color: #1e1e68;
+  padding: 60px 45px 50px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.cardImg {
+  position: absolute;
+  top: -55px;
+  left: 30px;
+}

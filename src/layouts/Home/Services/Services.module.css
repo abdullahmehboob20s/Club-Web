@@ -1,0 +1,9 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.cards > div {
+  flex: 1;
+}

@@ -1,0 +1,8 @@
+.bulletPoint {
+  display: flex;
+  align-items: center;
+}
+
+.bulletPoint > img {
+  margin-left: -10px;
+}

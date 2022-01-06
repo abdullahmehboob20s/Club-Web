@@ -1,0 +1,7 @@
+.about {
+  display: flex;
+  align-items: center;
+}
+.about_img {
+  margin-right: 4rem;
+}

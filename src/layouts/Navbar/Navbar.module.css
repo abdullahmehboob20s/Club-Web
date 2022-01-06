@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.navbarLinks {
+  display: flex;
+  align-items: center;
+}
+.navbarLinks > :not(:last-child) {
+  margin-right: 46px;
+}
+.navbarLinks :not(:last-child) {
+  transition: all 0.4s ease 0s;
+}
+.navbarLinks :not(:last-child):hover {
+  color: #479aff;
+}
