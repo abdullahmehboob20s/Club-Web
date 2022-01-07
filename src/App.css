@@ -12,10 +12,11 @@ body {
   color: #b1b6eb;
   position: relative;
   background: rgb(30, 5, 50);
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 :root {
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
 
   --fs-12px: 12px;
