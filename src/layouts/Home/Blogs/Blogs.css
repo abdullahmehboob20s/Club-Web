@@ -37,3 +37,11 @@
 .blogs_btn:hover::after {
   opacity: 1;
 }
+
+@media (max-width: 1000px) {
+  .blogs_btns {
+    position: static;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}

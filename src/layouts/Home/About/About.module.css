@@ -4,4 +4,26 @@
 }
 .about_img {
   margin-right: 4rem;
+  flex: 1;
+  width: 100%;
+}
+.about_right {
+  flex: 1;
+}
+
+@media (max-width: 1200px) {
+  .about_img {
+    margin-right: 2rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about_img {
+    margin-right: 0rem;
+    width: 100%;
+  }
 }

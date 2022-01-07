@@ -60,6 +60,20 @@ function Blogs() {
           prevEl: navigationPrevRef.current,
           nextEl: navigationNextRef.current,
         }}
+        breakpoints={{
+          850: {
+            slidesPerView: 3,
+          },
+          500: {
+            slidesPerView: 2,
+          },
+          400: {
+            slidesPerView: 1.5,
+          },
+          200: {
+            slidesPerView: 1,
+          },
+        }}
       >
         {blogsData.map((blog, index) => (
           <SwiperSlide>

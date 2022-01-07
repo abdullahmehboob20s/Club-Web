@@ -1,0 +1,77 @@
+.roadmapWrapper {
+  background-image: url(https://launch.lambowhaleclub.com/assets/image/roadmap-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.roadmap_points {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.roadmap_points > div {
+  flex: 1;
+}
+
+.roadmap_points > :not(:last-child) {
+  margin-right: 1rem;
+}
+.roadmapImg {
+  width: 99%;
+  margin: 0 auto;
+  display: block;
+}
+
+.rdm_mobile_img {
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .roadmap_points {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .rdm_mobile_img {
+    display: block;
+    width: 100%;
+  }
+
+  .roadmapImg {
+    display: none;
+  }
+  .roadmapPointsParent {
+    overflow-x: scroll;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .roadmapPointsParent::-webkit-scrollbar {
+    height: 4px;
+    background-color: #1e1e68;
+  }
+  .roadmapPointsParent::-webkit-scrollbar-thumb {
+    background-color: #d27de8;
+    border-radius: 20px;
+  }
+  .roadmapPoints {
+    min-width: 1500px;
+  }
+  .roadmapPoints .container-wrapper {
+    max-width: 100%;
+    width: 100% !important;
+    margin: 0 0;
+  }
+
+  .roadmap_points._1 {
+    padding-left: 8%;
+  }
+  .roadmap_points._2 {
+    padding-left: 25%;
+  }
+}

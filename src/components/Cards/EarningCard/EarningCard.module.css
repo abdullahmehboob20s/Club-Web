@@ -10,3 +10,19 @@
   top: -55px;
   left: 30px;
 }
+
+@media (max-width: 1000px) {
+  .card {
+    background-color: #1e1e68;
+    padding: 40px 24px 30px;
+    border-radius: 6px;
+    position: relative;
+  }
+
+  .cardImg {
+    width: 100px;
+    position: absolute;
+    top: -55px;
+    left: 10px;
+  }
+}
