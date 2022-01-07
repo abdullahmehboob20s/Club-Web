@@ -1,3 +1,11 @@
 .serviceCard img {
   margin-bottom: -40px;
 }
+
+@media (max-width: 1000px) {
+  .serviceCard img {
+    width: 150px;
+    min-height: 168px;
+    margin-bottom: -20px;
+  }
+}

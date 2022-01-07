@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+.hero_right iframe {
+  width: 100%;
+}
+
 .hero_bullet_points {
   display: flex;
   align-items: center;
@@ -35,4 +39,50 @@
 
 .heroDiscordBtn > img {
   margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .hero_left {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .hero_bullet_points > :not(:last-child) {
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero_right {
+    justify-content: start;
+    width: 100%;
+  }
+  .hero_right iframe {
+    width: 550px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: unset;
+  }
+
+  .hero_left {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_right {
+    display: none;
+  }
+  .hero_bullet_points {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .hero_bullet_points > :not(:last-child) {
+    margin-right: 0rem;
+  }
+  .hero_left {
+    margin-top: 1.5rem;
+  }
 }

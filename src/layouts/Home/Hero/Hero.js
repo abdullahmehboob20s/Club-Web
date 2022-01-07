@@ -37,7 +37,7 @@ function Hero() {
         </div>
       </div>
 
-      <button
+      {/* <button
         className={`${styles.heroDiscordBtn} pointer white uppercase bg-gradient-hover fs-16px weight-7`}
       >
         Join Discord
@@ -45,7 +45,7 @@ function Hero() {
           src="https://launch.lambowhaleclub.com/assets/image/discord.svg"
           alt=""
         />
-      </button>
+      </button> */}
     </div>
   );
 }

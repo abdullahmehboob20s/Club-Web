@@ -17,3 +17,37 @@
 .navbarLinks :not(:last-child):hover {
   color: #479aff;
 }
+
+@media (max-width: 1200px) {
+  .navbarLinks > :not(:last-child) {
+    margin-right: 1.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .navbarLinks > :not(:last-child) {
+    display: none;
+  }
+
+  .navbar {
+    padding: 2rem 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar img {
+    width: 250px;
+  }
+}
+@media (max-width: 500px) {
+  .navbar img {
+    max-width: 180px;
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width: 380px) {
+  .navbar img {
+    max-width: 150px;
+  }
+}

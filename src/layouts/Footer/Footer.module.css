@@ -1,0 +1,24 @@
+.footer_wrapper {
+  width: 100%;
+  background-image: url(https://launch.lambowhaleclub.com/assets/image/nft/nft_footer_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 165px 0 70px;
+  min-height: 445px;
+}
+.socail_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socail_icon > a {
+  transition: all 0.3s ease 0s;
+}
+.socail_icon > a:hover {
+  transform: translateY(-3px);
+}
+.socail_icon > a:not(:last-child) {
+  margin-right: 1rem;
+}

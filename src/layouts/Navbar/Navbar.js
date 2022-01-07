@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import HoverButton from "../../components/Buttons/HoverButton/HoverButton";
 import styles from "./Navbar.module.css";
+import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   return (
@@ -18,12 +19,12 @@ function Navbar() {
             <Link className="fs-18px white weight-6" to="/">
               Home
             </Link>
-            <Link className="fs-18px white weight-6" to="/">
+            <ScrollLink className="fs-18px white pointer weight-6" to="about">
               About Us
-            </Link>
-            <Link className="fs-18px white weight-6" to="/">
+            </ScrollLink>
+            <ScrollLink className="fs-18px white pointer weight-6" to="roadmap">
               Roadmap
-            </Link>
+            </ScrollLink>
             <Link className="fs-18px white weight-6" to="/">
               Referral Club{" "}
             </Link>

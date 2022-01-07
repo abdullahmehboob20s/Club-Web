@@ -7,3 +7,15 @@
 .cards > div {
   flex: 1;
 }
+
+@media (max-width: 1000px) {
+  .cards {
+    gap: 3rem;
+  }
+}
+@media (max-width: 760px) {
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
