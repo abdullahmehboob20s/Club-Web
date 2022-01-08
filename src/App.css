@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
   color: #b1b6eb;
   position: relative;
-  background: rgb(30, 5, 50);
+  background: rgb(50, 5, 11);
   overflow-x: hidden !important;
 }
 
@@ -176,10 +176,10 @@ body {
   color: #fafcff;
 }
 .blue {
-  color: #4890ff;
+  color: #fffc48;
 }
 .light-purple {
-  color: #b1b6eb;
+  color: rgb(230, 201, 205);
 }
 
 /* FONTS-WEIGHTS */
@@ -386,7 +386,7 @@ li {
   content: "";
   transition: all 0.5s;
   position: absolute;
-  background-image: linear-gradient(180deg, #479aff 0%, #524eff 100%);
+  background-image: linear-gradient(180deg, #ffd447 0%, #dfff4e 100%);
 }
 .bg-gradient-hover::after {
   z-index: -1;
@@ -401,8 +401,15 @@ li {
   background-image: linear-gradient(180deg, #479aff 0%, #524eff 100%);
 }
 
+.bg-gradient-hover-reverse p {
+  transition: all 0.5s;
+}
+
 .bg-gradient-hover:hover::after {
   opacity: 0;
+}
+.bg-gradient-hover-reverse:hover p {
+  color: #000000 !important;
 }
 .bg-gradient-hover-reverse:hover::after {
   opacity: 1;

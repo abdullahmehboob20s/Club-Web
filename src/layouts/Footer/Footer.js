@@ -45,7 +45,7 @@ function Footer() {
                 alt="instagram"
               />
             </a>
-            <a
+            {/* <a
               href="https://discord.gg/FKM2pQEKkE"
               rel="noreferrer"
               target="_blank"
@@ -54,7 +54,7 @@ function Footer() {
                 src="https://launch.lambowhaleclub.com/assets/image/discord.svg"
                 alt="discord"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </footer>

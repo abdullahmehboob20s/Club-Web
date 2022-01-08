@@ -64,9 +64,9 @@ function Home() {
       <div className="mb-100px">
         <Earning />
       </div>
-      <div className="mb-100px">
+      {/* <div className="mb-100px">
         <Blogs />
-      </div>
+      </div> */}
       <div>
         <Footer />
       </div>
@@ -74,7 +74,7 @@ function Home() {
       <button
         className={`${styles.scrollToTopBtn} ${
           scrolled ? styles.scrolled : ""
-        } pointer white`}
+        } pointer `}
         onClick={() => scroll.scrollToTop({ duration: 1 })}
       >
         <IoIosArrowUp size={20} />
