@@ -24,7 +24,7 @@ function CollectionCard({ data }) {
           />
           <AuthorBar
             img={data.authors.ownedBy.img}
-            title="Created by:"
+            title="Owned by:"
             name={data.authors.ownedBy.name}
           />
         </div>
