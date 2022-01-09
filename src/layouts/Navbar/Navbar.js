@@ -28,7 +28,7 @@ function Navbar() {
             <Link className="fs-18px white weight-6" to="/">
               Referral Club{" "}
             </Link>
-            <HoverButton title={"Collection"} />
+            <HoverButton to="/nft-presentaion" title={"Collection"} />
           </div>
         </div>
       </div>

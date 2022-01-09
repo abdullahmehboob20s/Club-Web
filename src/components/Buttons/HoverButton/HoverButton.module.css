@@ -11,6 +11,14 @@
   width: fit-content;
 }
 
+.hoverButton.reverse {
+  flex-direction: row-reverse;
+}
+
+.hoverButton.reverse > :last-child {
+  margin-right: 10px;
+}
+
 .hoverButton > :last-child {
   margin-left: 10px;
 }
