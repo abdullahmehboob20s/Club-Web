@@ -1,7 +1,6 @@
 import AuthorBar from "components/AuthorBar/AuthorBar";
 import BulletPoint from "components/BulletPoint/BulletPoint";
 import HoverButton from "components/Buttons/HoverButton/HoverButton";
-import Hero from "layouts/Home/Hero/Hero";
 import Navbar from "layouts/Navbar/Navbar";
 import React from "react";
 import styles from "./NFTPresentation.module.css";
