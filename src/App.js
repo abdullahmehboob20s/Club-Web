@@ -6,6 +6,7 @@ import React from "react";
 import ScrollToTopButton from "components/Buttons/ScrollToTopButton/ScrollToTopButton";
 
 function App() {
+  console.log("Rendered");
   return (
     <Router>
       <Routes>

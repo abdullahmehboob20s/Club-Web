@@ -3,7 +3,7 @@ import styles from "./Hero.module.css";
 
 function Hero() {
   return (
-    <div className="container-wrapper">
+    <div className="container-wrapper nftpresentation-home">
       <div className={styles.presentationHeader}>
         <div className="mb-30px">
           <p className="fs-72px text-center weight-7 lh-1  white">

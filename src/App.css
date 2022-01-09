@@ -456,7 +456,7 @@ li {
   :root {
     scroll-behavior: smooth;
 
-    --fs-72px: 52px;
+    --fs-72px: 52px !important;
     --fs-26px: 20px;
     --fs-36px: 20px;
   }
@@ -472,13 +472,25 @@ li {
 
 @media (max-width: 500px) {
   :root {
-    --fs-72px: 52px;
+    --fs-72px: 52px !important;
     --fs-26px: 20px;
     --fs-52px: 40px;
     --fs-18px: 16px;
   }
   .mb-100px {
     margin-bottom: 50px;
+  }
+
+  .nftpresentation-home {
+    margin-top: 2.2rem;
+  }
+
+  .nftpresentation-home .fs-72px {
+    font-size: 34px;
+  }
+
+  .nftpresentation-home p {
+    text-align: left !important;
   }
 }
 @media (max-width: 400px) {
