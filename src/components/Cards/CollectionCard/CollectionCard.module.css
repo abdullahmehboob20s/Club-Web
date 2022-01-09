@@ -1,0 +1,49 @@
+.collection_currentPrice {
+  background-color: #681e24;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 252px;
+  padding: 1.5rem 2rem;
+  padding-bottom: 0.8rem;
+}
+
+.collection {
+  display: flex;
+  align-items: flex-start;
+}
+
+.collection_left {
+  flex: 1;
+  margin-right: 5rem;
+  background: #681e24;
+  border-radius: 28px;
+  max-width: 496px;
+  width: 100%;
+  padding: 30px;
+  position: relative;
+}
+.collection_left video {
+  width: 100%;
+  object-fit: cover;
+}
+.collection_right {
+  flex: 1;
+}
+
+.collection_authors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .collection {
+    flex-direction: column;
+  }
+
+  .collection_left {
+    margin-right: 0rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+}

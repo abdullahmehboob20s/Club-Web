@@ -1,0 +1,23 @@
+.roadmap {
+  display: flex;
+}
+.roadmap_left {
+  flex: 0.73;
+  margin-right: 5rem;
+}
+.roadmap_right {
+  flex: 1;
+}
+.roadmap_left img {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .roadmap_left {
+    display: none;
+  }
+
+  .roadmap {
+    margin-top: 3rem;
+  }
+}
