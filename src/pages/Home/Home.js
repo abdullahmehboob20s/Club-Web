@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../../layouts/Footer/Footer";
 import About from "../../layouts/Home/About/About";
-import Blogs from "../../layouts/Home/Blogs/Blogs";
 import Earning from "../../layouts/Home/Earning/Earning";
 import Hero from "../../layouts/Home/Hero/Hero";
 import Roadmap from "../../layouts/Home/Roadmap/Roadmap";
