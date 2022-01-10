@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import instagram from "assets/images/instagram.svg";
+import twitter from "assets/images/twitter.svg";
+import telegram from "assets/images/telegram.svg";
 
 function Footer() {
   return (
@@ -20,41 +23,22 @@ function Footer() {
               rel="noreferrer"
               target="_blank"
             >
-              <img
-                src="https://launch.lambowhaleclub.com/assets/image/telegram.svg"
-                alt="telegram"
-              />
+              <img src={telegram} alt="telegram" />
             </a>
             <a
               href="https://twitter.com/LamboWhaleClub"
               rel="noreferrer"
               target="_blank"
             >
-              <img
-                src="https://launch.lambowhaleclub.com/assets/image/twitter.svg"
-                alt="twitter"
-              />
+              <img src={twitter} alt="twitter" />
             </a>
             <a
               href="https://www.instagram.com/lambowhaleclub/"
               rel="noreferrer"
               target="_blank"
             >
-              <img
-                src="https://launch.lambowhaleclub.com/assets/image/instagram.svg"
-                alt="instagram"
-              />
+              <img src={instagram} alt="instagram" />
             </a>
-            {/* <a
-              href="https://discord.gg/FKM2pQEKkE"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                src="https://launch.lambowhaleclub.com/assets/image/discord.svg"
-                alt="discord"
-              />
-            </a> */}
           </div>
         </div>
       </footer>

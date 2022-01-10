@@ -1,15 +1,12 @@
 import React from "react";
 import styles from "./About.module.css";
+import empowerimg from "assets/images/empower-img.png";
 
 function About() {
   return (
     <div className="container-wrapper">
       <div className={styles.about}>
-        <img
-          src="https://launch.lambowhaleclub.com/assets/image/about-img.png"
-          className={styles.about_img}
-          alt=""
-        />
+        <img src={empowerimg} className={styles.about_img} alt="" />
         <div className={styles.about_right}>
           <p className="fs-52px weight-7 lh-1 mb-30px">
             <span className="white block">EMPOWER YOUR</span>

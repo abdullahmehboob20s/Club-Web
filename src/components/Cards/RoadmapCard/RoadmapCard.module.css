@@ -11,7 +11,7 @@
 .roadmapCard_wrapper::before {
   content: "";
   position: absolute;
-  background-image: url(https://launch.lambowhaleclub.com/assets/image/nft/nft_road_map_line.svg);
+  background-image: url(../../../assets/images/line.svg);
   background-repeat: repeat-y;
   background-size: cover;
   z-index: -1;
@@ -35,7 +35,7 @@
   height: 82px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(https://launch.lambowhaleclub.com/assets/image/nft/nft_bullet.svg);
+  background-image: url(../../../assets/images/disc.svg);
 }
 
 .roadmapCardIndex {

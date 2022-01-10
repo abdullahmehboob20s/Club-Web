@@ -2,6 +2,7 @@ import RoadmapCard from "components/Cards/RoadmapCard/RoadmapCard";
 import React from "react";
 import styles from "./Roadmap.module.css";
 import roadmapData from "assets/data/roadmapData.json";
+import roadmapImg from "assets/images/roadmap-img.png";
 
 function Roadmap() {
   return (
@@ -20,10 +21,7 @@ function Roadmap() {
 
       <div className={styles.roadmap}>
         <div className={styles.roadmap_left}>
-          <img
-            src="https://launch.lambowhaleclub.com/assets/image/nft/nft_road_map.png"
-            alt=""
-          />
+          <img src={roadmapImg} alt="" />
         </div>
         <div className={styles.roadmap_right}>
           {roadmapData.map((data, index) => (

@@ -3,13 +3,16 @@ import BulletPoint from "components/BulletPoint/BulletPoint";
 import HoverButton from "components/Buttons/HoverButton/HoverButton";
 import React from "react";
 import styles from "./CollectionCard.module.css";
+import video from "assets/images/video.mp4";
+import btn_icon from "assets/images/btn_ic.svg";
 
 function CollectionCard({ data }) {
   return (
     <div className={styles.collection}>
       <div className={styles.collection_left}>
         <video
-          src={data.video}
+          // Can be loaded from json ( data.video ) or can be loaded like this from the assets folder
+          src={video}
           autoplay="autoplay"
           loop
           muted
@@ -57,12 +60,7 @@ function CollectionCard({ data }) {
           style={{
             padding: "12px 26px",
           }}
-          icon={
-            <img
-              src="https://launch.lambowhaleclub.com/assets/image/nft/btn_ic.svg"
-              alt=""
-            />
-          }
+          icon={<img src={btn_icon} alt="" />}
         />
       </div>
     </div>

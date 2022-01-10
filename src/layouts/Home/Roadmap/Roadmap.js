@@ -1,6 +1,8 @@
 import React from "react";
 import BulletPoint from "../../../components/BulletPoint/BulletPoint";
 import "./Roadmap.css";
+import roadmapLine1 from "assets/images/home-roadmap-line-1.png";
+import roadmapLine2 from "assets/images/home-roadmap-line-2.svg";
 
 const RoadmapPoint = ({ title, points }) => {
   return (
@@ -55,16 +57,8 @@ function Roadmap() {
           </div>
 
           <div className="mb-30px">
-            <img
-              src="https://launch.lambowhaleclub.com/assets/image/roadmap.png"
-              className={"roadmapImg"}
-              alt=""
-            />
-            <img
-              src="https://launch.lambowhaleclub.com/assets/image/rdm_moblie_bg.svg"
-              alt="roadmap"
-              class={"rdm_mobile_img"}
-            />
+            <img src={roadmapLine1} className={"roadmapImg"} alt="" />
+            <img src={roadmapLine2} alt="roadmap" class={"rdm_mobile_img"} />
           </div>
           <div className="container-wrapper ">
             <div className={"roadmap_points _2"}>
