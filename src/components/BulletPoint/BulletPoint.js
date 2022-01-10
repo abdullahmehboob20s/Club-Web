@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BulletPoint.module.css";
+import bulletpoint from "assets/images/bulletpoint.png";
 
 const BulletPoint = ({
   title,
@@ -7,10 +8,7 @@ const BulletPoint = ({
 }) => {
   return (
     <li className={styles.bulletPoint}>
-      <img
-        src="https://launch.lambowhaleclub.com/assets/image/dots.png"
-        alt=""
-      />
+      <img src={bulletpoint} alt="" />
       <p className={titleClassName}>{title}</p>
     </li>
   );

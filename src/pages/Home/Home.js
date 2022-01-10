@@ -7,22 +7,18 @@ import Roadmap from "../../layouts/Home/Roadmap/Roadmap";
 import Services from "../../layouts/Home/Services/Services";
 import Navbar from "../../layouts/Navbar/Navbar";
 import styles from "./Home.module.css";
+import shadder1 from "assets/images/shadder-1.png";
+import shadder2 from "assets/images/shadder-2.png";
 
 function Home() {
   return (
     <div>
       <section className={styles.bannerWrapper}>
         <div className={styles.heroShadder}>
-          <img
-            src="https://launch.lambowhaleclub.com/assets/image/hero-shade-1.png"
-            alt=""
-          />
+          <img src={shadder1} alt="" />
         </div>
         <div className={styles.heroShadder_2}>
-          <img
-            src="https://launch.lambowhaleclub.com/assets/image/hero-shade-2.png"
-            alt=""
-          />
+          <img src={shadder2} alt="" />
         </div>
         <div className="mb-50px">
           <Navbar />

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import HoverButton from "../../components/Buttons/HoverButton/HoverButton";
 import styles from "./Navbar.module.css";
 import { Link as ScrollLink } from "react-scroll";
+import logo from "assets/images/logo.svg";
 
 function Navbar() {
   return (
@@ -10,10 +11,7 @@ function Navbar() {
       <div className="container-wrapper">
         <div className={styles.navbar}>
           <Link to={"/"}>
-            <img
-              src="https://launch.lambowhaleclub.com/assets/image/nft/logo.svg"
-              alt=""
-            />
+            <img src={logo} alt="" />
           </Link>
           <div className={styles.navbarLinks}>
             <Link className="fs-18px white weight-6" to="/">

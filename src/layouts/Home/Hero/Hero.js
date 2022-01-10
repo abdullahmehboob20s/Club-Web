@@ -42,7 +42,7 @@ function Hero() {
       >
         Join Discord
         <img
-          src="https://launch.lambowhaleclub.com/assets/image/discord.svg"
+          src=""
           alt=""
         />
       </button> */}
